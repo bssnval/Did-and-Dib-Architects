@@ -1,0 +1,872 @@
+
+@font-face {
+	font-family: "Lora-Regular" ;
+	src: url("../FONTS/lora-regular.ttf");
+	font-weight: 400;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	max-width: 1500px;
+	width: 100%;
+	margin: 0 auto;
+    &_osob{
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto; 
+    }
+    &_slider{
+        max-width: 1600px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.menu_wrapperl{
+	text-decoration: none;
+	list-style: none;
+}
+
+button{
+    background: initial;
+    border: none;
+    margin-top: 40px;
+}
+
+.menu_login{
+    text-decoration: none;
+	list-style: none;
+}
+.menu_nav{
+    text-decoration: none;
+	list-style: none;
+}
+
+.menu_logo{
+    text-decoration: none;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	list-style: none;
+    color: #000000;
+}
+
+header{
+    background-color: #000000;
+}
+
+.pad{
+    padding: 80px 0;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+    max-width: 740px;
+    font-size: 26px;
+    font-family: "Lora-Regular" ;    
+}
+
+.white{
+    color: #ffffff;
+}
+
+.max{
+    text-transform: uppercase;
+}
+
+.beg{
+    color: #B9947A;
+}
+
+h1{
+    font-size: 80px;
+    font-family: "Lora-Regular" ;    
+    color: #ffffff;
+}
+
+.h1{
+    font-size: 40px;
+    font-family: "Lora-Regular" ;    
+    color: #ffffff;
+}
+
+h2{
+    font-size: 40px;
+    font-family: "Lora-Regular" ;   
+}
+
+.center{
+    text-align: center;
+}
+
+.color_black{
+    color: #000000;
+    font-size: 40px;
+    font-family: "Lora-Regular" ;  
+    padding: 30px 0;
+}
+
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+    &_wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &_nav{
+        color: #ffffff;
+        margin-left: 30px;
+        font-family: "Lora-Regular" ;
+        font-size: 20px; 
+    }
+    &_logo{
+        color: #ffffff;
+        font-family: "Lora-Regular" ;
+        font-size: 40px;
+    }
+    &_login{
+        margin-top: 4px;
+    }
+}
+
+.main{
+    padding: 40px 0;
+
+    &_box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &_text{
+        font-size: 26px;
+        font-family: "Lora-Regular" ;    
+        color: #ffffff;
+        padding: 40px 0 80px 0;
+        opacity: 80%;
+    }
+}
+
+.button{
+    padding: 20px 80px;
+    color: #ffffff;
+    background-color: #B9947A;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.otstup{
+    padding-bottom: 50px;
+}
+
+.box{
+   padding-top: 50px;
+
+   &_fact_title{
+        font-size: 60px;
+        font-family: "Lora-Regular" ;    
+    }
+}
+
+.box_img_proekt:nth-child(2){
+    padding: 0 50px;
+}
+
+.footer{
+    margin-top: 80px;
+    width: 100%;
+	background: url("../IMG/футер.png") no-repeat;
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+
+    &_box{
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &_menu{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 200px;
+    }
+    &_img{
+        margin-left: 40px;
+    }
+    &_osob{
+        margin-top: 0;
+        width: 100%;
+        background: url("../IMG/футер.png") no-repeat;
+        background-position: center center;
+        background-size: cover;
+        overflow: hidden;
+    }
+}
+
+.footer_menu_box:nth-child(2){
+    margin-left: 60px;
+}
+
+.itap{
+    padding: 80px 0;
+    background-color: #000000;
+
+    &_box{
+        font-size: 40px;
+        font-family: "Lora-Regular" ;  
+    }
+    &_box_text{
+        font-size: 40px;
+        font-family: "Lora-Regular" ;  
+        padding: 10px 0;
+    }
+    &_ilement{
+        font-size: 24px;
+        font-family: "Lora-Regular" ; 
+        margin-left: 20px; 
+    }
+    &_spisok{
+        margin-bottom: 20px;
+    }
+    &_img{
+        width: 700px;
+        height: 1050px;
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+    &_white{
+        padding: 80px 0;
+    }
+}
+
+.white{
+    color: #ffffff;
+}
+
+.box_itap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_kontakt{
+    display: flex;
+    justify-content: space-around;
+}
+
+.kontakt{
+    &_box{
+        border: 2px solid white;
+        padding: 100px 50px;
+    }
+}
+
+hr{
+    color: #ffffff;
+    width: 340px;
+}
+
+.slider{
+    padding: 80px 0;
+    margin: 0 auto;
+    overflow: hidden;
+
+    &_padding{
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &_boxs{
+        position: relative;
+        display: flex;
+        width: 1500px;
+        left: 0;
+        transition: all ease-in .2s;
+    }
+    &_btn{
+        cursor: pointer;
+    }
+    &_box{
+        border: 3px solid white;
+        margin-left: 50px;
+        padding: 100px 20px 150px 20px;
+        min-width: 300px;
+    }
+    &_title{
+        font-size: 30px;
+        font-family: "Lora-Regular" ; 
+        margin-bottom: 100px;
+    }
+    &_white{
+        font-size: 30px;
+        font-family: "Lora-Regular" ; 
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    &_text{
+        font-size: 20px;
+        font-family: "Lora-Regular" ; 
+        opacity: 80%;
+    }
+    &_btn{
+        margin-left: 40px;
+        margin-right: 50px;
+    }
+}
+
+.padding{
+    padding: 80px 0;
+}
+
+.black{
+    background-color: #000000;
+}
+
+.pd{
+    padding-top: 50px;
+}
+
+  .hover_text{
+    display: flex;
+    padding: 580px 100px 70px 100px;
+    opacity: 0;
+    color: #ffffff;
+    font-size: 24px;
+    background: rgba(0, 0, 0, 0.338);
+  }
+  .hover_text:hover {
+    opacity: 1;
+    transition: 0.2s;
+  }
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 300px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0, 0, 0, 0.56);
+    
+    &_two{
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 300px; 
+        left: 0;
+        top: 0;
+        width: 100%; 
+        height: 100%; 
+        overflow: auto; 
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0, 0, 0, 0.56); 
+    }
+    &_content {
+        border: 10px solid black;
+        position: relative;
+        background: #ffffff;
+        margin: auto;
+        padding: 20px 0;
+        width: 690px;
+        height: 360px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    &_content_two{
+        border: 10px solid black;
+        position: relative;
+        background: #ffffff;
+        margin: auto;
+        padding: 20px 0;
+        width: 740px;
+        height: 460px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+}
+
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+input{
+    text-decoration: none;
+    border: none;
+}
+
+.imp{
+    margin: 0 auto;
+    width: 440px;
+    height: 50px;
+    border: 5px solid black;
+}
+
+.inp{
+    font-size: 18px;
+    font-family: "Lora-Regular";
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.inp::placeholder{
+    font-size: 18px;
+    font-family: "Lora-Regular";
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.btn{
+    margin-left: 300px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 5px ;
+    font-size: 18px;
+    font-family: "Lora-Regular" ; 
+}
+
+.btn_reg{
+    margin-left: 300px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 5px ;
+    font-size: 18px;
+    font-family: "Lora-Regular" ; 
+}
+
+.btn_two{
+    margin-left: 310px;
+    font-size: 18px;
+    font-family: "Lora-Regular" ; 
+    color: #000000;
+}
+
+.btn_two_reg{
+    margin-left: 350px;
+    font-size: 18px;
+    font-family: "Lora-Regular" ;
+    color: #000000;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+
+    &_box{
+        padding: 50px 0;
+    }
+    &_imp{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.282);
+        width: 680px;
+        padding: 30px 0;
+    }
+    &_inp{
+        font-size: 30px;
+        font-family: "Lora-Regular";
+    }
+    &_btn{
+        margin-left: 600px;
+        font-size: 30px;
+        font-family: "Lora-Regular";
+        text-align: center;
+        padding: 10px 30px;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: #000000;
+        border-radius: 5px;
+    }
+}
+
+.form_imp::placeholder{
+    font-size: 24px;
+    font-family: "Lora-Regular";
+}
+
+.kabinet{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+
+    &_box{
+        display: flex;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+        justify-content: space-between; 
+        margin-top: 50px;
+    }
+    &_boxs{
+       padding-top: 170px;
+    }
+}
+
+.peopl{
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.062);
+    display: flex;
+    padding: 30px 100px 30px 50px;
+    align-items: center;
+}
+
+.otstup{
+    margin-left: 30px;
+}
+
+.display{
+    display: none;
+}
+
+.display-none{
+    display: block;
+}
+
+
+@media (min-width: 480px) and (max-width: 480px){
+
+.menu_wrapper:nth-child(2){
+    flex-wrap: wrap;
+}
+.display-none{
+    display: none;
+}
+.container{
+    max-width: 400px;
+	width: 100%;
+	margin: 0 auto;
+}
+.menu{
+    align-items: center;
+
+    &_logo{
+        font-size: 30px;
+    }
+    &_nav{
+        font-size: 16px;
+    }
+    &_login{
+        margin-top: -5px;
+        margin-right: 10px;
+        margin-left: 16px;
+    }
+}
+h1{
+    font-size: 40px;
+}
+.h1{
+    font-size: 30px;
+}
+.main{
+    &_text{ 
+        font-size: 18px; 
+        padding: 01px 0 30px 0;
+    }
+    &_ing{
+        width: 120px;
+        height: 320px;
+    }
+}
+.button{
+    font-size: 14px; 
+    padding: 10px 20px;
+}
+.img{
+    height: 0;
+    width: 0;
+}
+h2{
+    font-size: 20px; 
+    text-align: center;
+}
+.box{
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 20px;
+
+    &_text{
+        padding: 10px 0;
+    }
+    &_fact_title{
+        font-size: 24px; 
+    }
+}
+.pad{
+    padding: 20px 0;
+}
+.padding{
+    padding: 10px 0;
+}
+.text{
+    font-size: 16px; 
+}
+.black{
+    display: none;
+}
+.proekt_img{
+    width: 110px;
+    height: 110px;
+}
+.box_img_proekt:nth-child(2){
+    padding: 0 20px;
+}
+.footer{
+    margin-top: 20px;
+    &_menu{
+        margin: 0 auto;
+    }
+    &_box{
+        padding: 10px 0;
+        flex-wrap: wrap
+    }
+    &_img{
+        margin: 0 auto;
+        width: 30px;
+        height: 30px;
+    }
+}
+.hover_text{
+    padding: 290px 50px 35px 50px;
+}
+.hover_osob{
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+.otstup{
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+.box_kontakt{
+    flex-wrap: wrap;
+}
+.kontakt_box{
+    margin-top: 20px;
+}
+.itap{
+    padding: 10px 0;
+
+    &_box_text{
+        font-size: 30px; 
+    }
+    &_img{
+        width: 0;
+        height: 0;
+    }
+    &_white{
+        margin-left: -140px;
+    }
+}
+.container_osob{
+    display: none;
+}
+.display{
+    display: block;
+}
+.box_text{
+    padding: 0 0;
+}
+.modal{
+    &_content{
+        width: 350px;
+        height: 330px;
+    }
+}
+.imp{
+    width: 250px;
+    height: 48px;
+}
+.btn{
+    margin-left: 120px;
+}
+.btn_two{
+    margin-left: 130px;
+}
+.modal_content_two{
+    width: 350px;
+    height: 430px;
+}
+.btn_reg{
+margin-left: 100px;
+}
+.btn_two_reg{
+    margin-left: 160px;
+}
+.form{
+    flex-wrap: wrap;
+
+    &_imp{
+        padding: 10px 0 ;
+        width: 420px;
+    }
+    &_btn{
+        margin-left: 30px;
+        margin-bottom: 40px;
+    }
+    &_box{
+        padding: 10px 0;
+    }
+}
+.kabinet_boxs{
+    padding-top: 50px;
+}
+.peopl{
+    padding: 30px 70px 30px 30px;
+}
+
+}
+
+
+
+
+@media (min-width: 768px) and  (max-width: 768px){
+    
+.menu_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.container{
+    max-width: 650px;
+	width: 100%;
+	margin: 0 auto;
+}
+.menu_login{
+    margin-left: 40px;
+    margin-right: 0px;
+}
+h1{
+    font-size: 40px;
+}
+.main_ing{
+    width: 200px;
+    height: 270px;
+}
+.main_text{
+    font-size: 20px;
+    padding: 10px 0 40px 0;
+}
+.button{
+    padding: 20px 30px;
+    font-size: 18px;
+}
+.img{
+    width: 0;
+    height: 0;
+}
+.box{
+    justify-content: space-around;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+.black{
+    display: none;
+}
+.otstup{
+    flex-wrap: wrap;
+    margin-right: 140px;
+}
+.padding{
+    padding: 10px 0;
+}
+.pad {
+    padding: 40px 0;
+}
+.box_img_proekt:nth-child(2){
+    padding: 20px 0;  
+}
+.footer{
+    margin-top: 20px;
+    &_menu{
+        margin: 0 auto;
+    }
+    &_box{
+        padding: 10px 0;
+        flex-wrap: wrap
+    }
+    &_img{
+        margin: 0 auto;
+        width: 30px;
+        height: 30px;
+    }
+    &_seti{
+        margin-right: 20px;
+        margin-left: 200px;
+    }
+}
+.itap_img{
+    width: 0;
+    height: 0;
+}
+.itap{
+    padding: 30px 0;
+
+    &_box_text{
+        font-size: 40px; 
+    }
+    &_img{
+        width: 0;
+        height: 0;
+    }
+    &_white{
+        margin-left: -140px;
+    }
+}
+.container_osob{
+    display: none;
+}
+.planchet{
+    margin-left: 80px;
+    margin-right: -70px;
+}
+.hover_text{
+    padding: 580px 100px 38px 100px;
+}
+.box_kontakt{
+    flex-wrap: wrap;
+}
+.kontakt_box{
+    margin-top: 20px;
+}
+.box_img_proekt{
+    margin-left: 120px;
+}
+.form{
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &_imp{
+        padding: 10px 0 ;
+        width: 420px;
+    }
+    &_btn{
+        margin-left: 160px;
+        margin-bottom: 40px;
+    }
+    &_box{
+        padding: 10px 0;
+    }
+}
+.kabinet_boxs{
+    padding-top: 50px;
+}
+.peopl{
+    padding: 30px 0px 30px 70px;
+}
+
+}
